@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.filterbutton {
+  font-size: 10px !important;
+  background-color: gray !important;
+  border-color: gray;
+}
+
+.sizes-font {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.productname-font {
+  font-size: 0.85rem;
+}
+#filtersection > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#filtersection > ul > li {
+  float: left;
+  margin: 3px;
+}
+
+#filtersection > ul > li a {
+  display: table-cell;
+  color: white;
+  text-align: center;
+  font-size: xx-small;
+  padding: 1px;
+  text-decoration: none;
+  background-color: darkcyan;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+}
+
+#filtersection > ul > li a:hover {
+  background-color: darkgrey;
+}
+
+#cardfreeshippping {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.575rem;
+  border-radius: 0.2rem;
+}
+
+.card-width {
+  width: 15em;
+}
+
+.card-seperator {
+  color: #eabf00;
+  margin: 0 !important;
+  padding: 0% !important;
+}
+
+.card-price-font {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.card-price-font_cents {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.card-priceor-font {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: grey;
+}
+
+.card-priceor-font-bold {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: grey;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: black;
+  color: white;
+}
+
+.cart-text {
+  font-size: x-small;
+}
+
+.noofproducts {
+  font-size: small;
+}
+
+.poduct-count-circle {
+  border-radius: 50%;
+  background-color: #eabf00;
+  color: black;
+  position: relative;
+  left: 1.8rem;
+  bottom: 0.8rem;
+  height: 20px;
+  width: 20px;
+  padding: 2px 2px 2px 6px;
+  font-size: 12px !important;
+  display: inline-block;
+}
+
+.minicart-price {
+  color: #eabf00;
+}
+
+.offcanvas-header {
+  position: relative;
+  left: -19px;
+  top: -10px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
